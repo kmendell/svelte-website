@@ -68,8 +68,6 @@ import Step from "./Step.svelte";
         >
             <h2 class="font-semibold text-4xl sm:text-5xl md:text-6xl">
                 Hi! I'm <span class="poppins text-blue-400">Kyle</span> Mendell
-                <br />IT Support
-                <span class="poppins text-blue-400">Engineer</span>
             </h2>
             <p class="text-base sm:text-lg md:text-xl">
                 My <span class="text-blue-400"> favorite tech</span> includes <span class="text-blue-400">GoLang</span>, and Ive been learning Svelte, TypeScript, and Node.js as well!
