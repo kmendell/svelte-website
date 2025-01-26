@@ -31,9 +31,9 @@
                 "I taught myself to code using free online resources and absolutely fell in love with the creativity and problem solving that is involved in developing and engineering innovative new online experiences. Starting of with HTML, Then moving to Visual Basic, then moving to more backend languages like Go, and C.",
         },
         {
-            name: "a product design & UX finatic",
+            name: "a fast and adaptive learner",
             description:
-                "Carefully crafting and designing amazing user experiences allows me to express and experiment with every morsel of creativity I have. I love the challenge of learning new design concepts and enabling users with amazing online experiences.",
+                "I have been known to learn and grab new concepts and knowledge fast, and consistently, and adapt to the changing aspects of IT, and Technology.",
         },
         {
             name: "an excellent communicator",
@@ -163,10 +163,10 @@
                 </div>
             {/each}
         </div>
-        <h5 class={" text-2xl sm:text-3xl font-semibold text-center poppins "}>
+        <!-- <h5 class={" text-2xl sm:text-3xl font-semibold text-center poppins "}>
             The <span class="text-violet-400">Complete</span> Package
-        </h5>
-        <div
+        </h5> -->
+        <!-- <div
             class="flex flex-col overflow-x-scroll gap-10 max-w-[800px] mx-auto w-full"
         >
             <table class="bg-white text-slate-700 rounded text-center">
@@ -225,7 +225,7 @@
                     </tr>
                 </tbody>
             </table>
-        </div>
+        </div> -->
         <div class="mx-auto -mt-12 italic sm:hidden opacity-50">
             <p>Scroll to see more &rarr;</p>
         </div>
