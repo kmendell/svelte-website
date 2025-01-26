@@ -67,19 +67,19 @@ import Step from "./Step.svelte";
             class="flex flex-col lg:justify-center text-center lg:text-left gap-6 md:gap-8 lg:gap-10"
         >
             <h2 class="font-semibold text-4xl sm:text-5xl md:text-6xl">
-                Hi! I'm <span class="poppins text-violet-400">Kyle</span> Mendell
+                Hi! I'm <span class="poppins text-blue-400">Kyle</span> Mendell
                 <br />IT Support
-                <span class="poppins text-violet-400">Engineer</span>
+                <span class="poppins text-blue-400">Engineer</span>
             </h2>
             <p class="text-base sm:text-lg md:text-xl">
-                My <span class="text-violet-400"> favorite tech</span> includes <span class="text-violet-400">GoLang</span>, and Ive been learning Svelte, TypeScript, and Node.js as well!
+                My <span class="text-blue-400"> favorite tech</span> includes <span class="text-blue-400">GoLang</span>, and Ive been learning Svelte, TypeScript, and Node.js as well!
             </p>
             <button
             on:click={createEmail}
                 class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950"
             >
                 <div
-                    class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"></div>
+                    class="absolute top-0 right-full w-full h-full bg-blue-400 opacity-20 group-hover:translate-x-full z-0 duration-200"></div>
                 <h4 class="relative z-9">Email Me &rarr;</h4>
             </button>
         </div>
@@ -91,7 +91,7 @@ import Step from "./Step.svelte";
                 class="absolute inset-0 overflow-hidden rounded-md flex items-center justify-center"
             >
                 <div
-                    class="bg-gradient-to-r absolute inset-[-20px]  from-violet-800 to-indigo-800 specialSpin"
+                    class="bg-gradient-to-r absolute inset-[-20px]  from-blue-800 to-indigo-800 specialSpin"
                 />
             </div>
 
@@ -112,7 +112,7 @@ import Step from "./Step.svelte";
             <Step step={steps[0]}>
                 <p>  
                     Pocket ID is a Simple yet Power OIDC provider that uses <strong
-                        class="text-violet-400"
+                        class="text-blue-400"
                         >Passkeys for authentication.</strong
                     > While I'm not the Owner and Creator of Pocket ID, I have contributed to the project, 
                     for example the LDAP Sync feature, and the Docusaurus documentation, and more. 
@@ -133,15 +133,15 @@ import Step from "./Step.svelte";
         id="about"
         class="py-20 pt-10 lg:pt-16 lg:py-32 flex flex-col gap-16 sm:gap-20 md:gap-24 relative"
     >
-        <!-- <div class="z-[-1] bg-violet-950 w-screen left-1/2 -translate-x-1/2 top-0 h-full absolute"> </div> -->
+        <!-- <div class="z-[-1] bg-blue-950 w-screen left-1/2 -translate-x-1/2 top-0 h-full absolute"> </div> -->
         <div
-            class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-violet-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-violet-700 py-4"
+            class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-blue-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-blue-700 py-4"
         >
             <h6 class="text-large sm:text-xl md:text-2xl">
                 Want to know more?
             </h6>
             <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
-                A bit <span class="poppins text-violet-400">about</span> me.
+                A bit <span class="poppins text-blue-400">about</span> me.
             </h3>
         </div>
         <p class="mx-auto poppins font-semibold text-lg sm:text-xl md:text-2xl">
@@ -180,7 +180,7 @@ import Step from "./Step.svelte";
             {/each}
         </div>
         <!-- <h5 class={" text-2xl sm:text-3xl font-semibold text-center poppins "}>
-            The <span class="text-violet-400">Complete</span> Package
+            The <span class="text-blue-400">Complete</span> Package
         </h5> -->
         <!-- <div
             class="flex flex-col overflow-x-scroll gap-10 max-w-[800px] mx-auto w-full"
@@ -193,7 +193,7 @@ import Step from "./Step.svelte";
                         <th class="whitespace-nowrap p-2 px-4">Candidate #2</th>
                         <th class="whitespace-nowrap p-2 px-4">Candidate #3</th>
                         <th
-                            class="bg-violet-700 text-white whitespace-nowrap p-4 px-8"
+                            class="bg-blue-700 text-white whitespace-nowrap p-4 px-8"
                             >Me</th
                         >
                     </tr>
@@ -250,14 +250,14 @@ import Step from "./Step.svelte";
         class="py-20 pt-10 lg:pt-16 lg:py-32 flex flex-col gap-16 sm:gap-20 md:gap-24 relative"
     >
         <h2 class="font-semibold text-4xl sm:text-5xl md:text-6xl text-center">
-            Github <span class="poppins text-violet-400">Stats</span>
+            Github <span class="poppins text-blue-400">Stats</span>
         </h2>
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 lg:gap-10">
             <Stats step={stats[0]}>
-                <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kmendell&exclude_repo=tprdp,thinpiproject,thinpi&locale=en&hide_title=false&card_width=320&langs_count=5&theme=midnight-purple&hide_border=true" height="150" alt="languages graph"  />
+                <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kmendell&exclude_repo=tprdp,thinpiproject,thinpi&locale=en&hide_title=false&card_width=320&langs_count=5&theme=transparent&hide_border=true" height="150" alt="languages graph"  />
             </Stats>
             <Stats step={stats[1]}>
-                <img src="https://github-readme-stats.vercel.app/api?username=kmendell&hide_title=false&hide_rank=false&show=reviews,discussions_started,discussions_answered,prs_merged&show_icons=true&include_all_commits=true&count_private=true&card_width=320&disable_animations=false&theme=midnight-purple&locale=en&hide_border=true" height="150" alt="stats graph"  />
+                <img src="https://github-readme-stats.vercel.app/api?username=kmendell&hide_title=false&hide_rank=false&show=reviews,discussions_started,discussions_answered,prs_merged&show_icons=true&include_all_commits=true&count_private=true&card_width=320&disable_animations=false&theme=transparent&locale=en&hide_border=true" height="150" alt="stats graph"  />
             </Stats>
 
         </div>

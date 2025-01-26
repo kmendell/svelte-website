@@ -5,7 +5,7 @@
 <a
     href=" "
     target="_blank"
-    class="p-4 sm:p-6 md:p-8 flex flex-col gap-4 rounded-lg border border-solid border-violet-700 text-center cursor-pointer group hover:border-violet-400 duration-200"
+    class="p-4 sm:p-6 md:p-8 flex flex-col gap-4 rounded-lg border border-solid border-blue-700 text-center cursor-pointer group hover:border-blue-400 duration-200"
 >
     <h3 class="font-medium text-xl sm:text-2xl md:text-3xl">
         <!-- {stat.name} -->
