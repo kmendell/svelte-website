@@ -9,7 +9,7 @@
     ]
 
     function createEmail() {
-        console.log("contact me clicked")
+        window.location.href = "mailto:kmendell@outlook.com";
     }
 </script>
 
