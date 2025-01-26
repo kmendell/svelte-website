@@ -1,5 +1,6 @@
 <script>
-    import Step from "./Step.svelte";
+    import Stats from "./Stats.svelte";
+import Step from "./Step.svelte";
 
     let steps = [
         {
@@ -10,10 +11,11 @@
                 "Pocket ID is a Simple yet Power OIDC provider that uses Passkeys for authentication. While I'm not the Owner and Creator of Pocket ID, I have contributed to the project, for example the LDAP Sync feature, and the Docusarus documentation, and more. This is a project im passionate about and will always help to keep it thriving!",
         },
         {
-            name: "Project 2",
-            icon: "fa-brands fa-git-alt",
+            name: "This Website",
+            icon: "fa-solid fa-code",
+            href: "https://kmendell.github.io/svelte-website",
             description:
-                "Nothing to Show yet",
+                "This Website you are currently on, was built from Scratch using SvelteKit and TailwindCSS. This was my first attempt in a long time for building a website, and the first time ever using Tailwind and SvelteKit.",
         },
         {
             name: "Project 3",
@@ -22,6 +24,15 @@
                 "Augment your datasets with our filters and dataset manipulations to ensure your models are trained on the highest quality datasets (coming soon).",
         },
     ];
+
+    let stats = [
+        {
+            name: "Github Grade",
+        },
+        {
+            name: "Github Stats",
+        },
+    ]
 
     let benefits = [
         {
@@ -103,11 +114,11 @@
                     This is a project im passionate about and will always help to keep it thriving!
                 </p>
             </Step>
-            <!-- <Step step={steps[1]}>
+            <Step step={steps[1]}>
                 <p>
                 </p>
             </Step>
-            <Step step={steps[2]}>
+            <!-- <Step step={steps[2]}>
                 <p>
                 </p>
             </Step> -->
@@ -226,9 +237,26 @@
                 </tbody>
             </table>
         </div> -->
-        <div class="mx-auto -mt-12 italic sm:hidden opacity-50">
+        <!-- <div class="mx-auto -mt-12 italic sm:hidden opacity-50">
             <p>Scroll to see more &rarr;</p>
+        </div> -->
+        <section
+        id="stats"
+        class="py-20 pt-10 lg:pt-16 lg:py-32 flex flex-col gap-16 sm:gap-20 md:gap-24 relative"
+    >
+        <h2 class="font-semibold text-4xl sm:text-5xl md:text-6xl text-center">
+            Github <span class="poppins text-violet-400">Stats</span>
+        </h2>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 lg:gap-10">
+            <Stats step={stats[0]}>
+                <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kmendell&exclude_repo=tprdp,thinpiproject,thinpi&locale=en&hide_title=false&card_width=320&langs_count=5&theme=midnight-purple&hide_border=true" height="150" alt="languages graph"  />
+            </Stats>
+            <Stats step={stats[1]}>
+                <img src="https://github-readme-stats.vercel.app/api?username=kmendell&hide_title=false&hide_rank=false&show=reviews,discussions_started,discussions_answered,prs_merged&show_icons=true&include_all_commits=true&count_private=true&card_width=320&disable_animations=false&theme=midnight-purple&locale=en&hide_border=true" height="150" alt="stats graph"  />
+            </Stats>
+
         </div>
-        <p class="mx-auto">So why not invest?</p>
+        </section>
+        
     </section>
 </main>
