@@ -13,7 +13,7 @@ import Step from "./Step.svelte";
         {
             name: "This Website",
             icon: "fa-solid fa-code",
-            href: "https://kmendell.github.io/svelte-website",
+            href: "https://github.com/kmendell/svelte-website",
             description:
                 "This Website you are currently on, was built from Scratch using SvelteKit and TailwindCSS. This was my first attempt in a long time for building a website, and the first time ever using Tailwind and SvelteKit.",
         },
