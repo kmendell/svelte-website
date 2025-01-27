@@ -8,7 +8,7 @@ import Step from "./Step.svelte";
             icon: "fa-solid fa-id-badge",
             href: "https://github.com/stonith404/pocket-id",
             description:
-                "Pocket ID is a Simple yet Power OIDC provider that uses Passkeys for authentication. While I'm not the Owner and Creator of Pocket ID, I have contributed to the project, for example the LDAP Sync feature, and the Docusarus documentation, and more. This is a project im passionate about and will always help to keep it thriving!",
+                "Pocket ID is a Simple yet Power OIDC provider that uses Passkeys for authentication. While I'm not the Owner or Creator of Pocket ID, I have contributed to the project, for example the LDAP Sync, and the Docusaurus documentation, and more. This is a project im passionate about and will always help to keep it thriving!",
         },
         {
             name: "This Website",
@@ -84,21 +84,6 @@ import Step from "./Step.svelte";
         <div class="relative shadow-2xl grid place-items-center">
             <img src={"images/kyle.jpg"} alt="Kyle" class="object-cover z-[2] max-h-[40vh] rounded-full" />
         </div>
-        <!-- <div  class="flex p-0.5 relative max-w-[700px] w-full mx-auto">
-            <div
-                class="absolute inset-0 overflow-hidden rounded-md flex items-center justify-center"
-            >
-                <div
-                    class="bg-gradient-to-r absolute inset-[-20px]  from-blue-800 to-indigo-800 specialSpin"
-                />
-            </div>
-
-            <img
-                src={"images/zetane-engine.jpeg"}
-                alt="Zetane Engine"
-                class="w-full h-full object-cover z-[2]"
-            />
-        </div> -->
     </section>
     <section class="py-20 lg:py-32 flex flex-col gap-24" id="projects">
         <div class="flex flex-col gap-2 text-center">
