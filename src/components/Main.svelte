@@ -18,10 +18,11 @@ import Step from "./Step.svelte";
                 "This Website you are currently on, was built from Scratch using SvelteKit and TailwindCSS. This was my first attempt in a long time for building a website, and the first time ever using Tailwind and SvelteKit.",
         },
         {
-            name: "Project 3",
-            icon: "fa-brands fa-git-alt",
+            name: "My Music",
+            icon: "fa-brands fa-spotify",
+            href: "https://solo.to/ofkm",
             description:
-                "Augment your datasets with our filters and dataset manipulations to ensure your models are trained on the highest quality datasets (coming soon).",
+                "In addition to Programming I also write, record, and produce my own music! You can see the latest release I have dropped at the link below! ",
         },
     ];
 
@@ -106,10 +107,10 @@ import Step from "./Step.svelte";
                 <p>
                 </p>
             </Step>
-            <!-- <Step step={steps[2]}>
+            <Step step={steps[2]}>
                 <p>
                 </p>
-            </Step> -->
+            </Step>
         </div>
     </section>
     <section
